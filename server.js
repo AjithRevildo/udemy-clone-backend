@@ -11,7 +11,7 @@ mongoDB()
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Revildo un app run avuthu daa')
+    res.send('Your Backend is successfully working')
 })
 
 app.use('/api/courses', courseRoutes)
